@@ -1,0 +1,50 @@
+# Code Club Sulmona - Guida del volontario
+title: Code Club Sulmona
+description: >-
+  La guida per i mentor volontari del Code Club Sulmona: l'Arcipelago, i gradi,
+  le schede attività di ogni isola e i materiali grafici.
+lang: it-IT
+url: "https://sulmonalug.it"
+baseurl: "/code-club-guida"
+
+theme: just-the-docs
+color_scheme: carta
+
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 2
+  button: true
+
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Torna su"
+
+aux_links:
+  "L'Arcipelago":
+    - "https://www.sulmonalug.it/code-club/arcipelago/"
+  "Sulmona LUG":
+    - "https://www.sulmonalug.it/"
+aux_links_new_tab: false
+
+gh_edit_link: true
+gh_edit_link_text: "Modifica questa pagina su GitHub"
+gh_edit_repository: "https://github.com/Sulmona-LUG/code-club-guida"
+gh_edit_branch: "main"
+gh_edit_view_mode: "edit"
+
+kramdown:
+  toc_levels: "2"
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
